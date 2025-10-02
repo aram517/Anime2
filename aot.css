@@ -1,0 +1,55 @@
+/* aot.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f4f1ec; /* earthy beige */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Title */
+.project-header h1 {
+  font-size: 3rem;
+  color: #1e3c72;
+  margin-bottom: 20px;
+}
+
+/* Video */
+.video-section video {
+  width: 50%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  margin-bottom: 30px;
+}
+
+/* Description Card */
+.card {
+  background: rgba(42,82,152,0.05); /* light transparent blue */
+  max-width: 900px;
+  margin: 0 auto 30px;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: left;
+  border-left: 6px solid #2a5298;
+}
+
+.card h2 { color: #2a5298; margin-bottom: 10px; }
+.card p { font-size: 1.05rem; color: #333; line-height: 1.7; }
+
+
+/* Footer button */
+footer { margin-top: 10px; }
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #2a5298;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn:hover { background: #1e3c72; }

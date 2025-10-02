@@ -1,0 +1,45 @@
+/* jujutsu.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f5f0fa; /* soft purple-gray */
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.project-header h1 {
+  font-size: 3rem;
+  color: #5a189a; /* deep purple */
+  margin-bottom: 20px;
+}
+
+.video-section video {
+  width: 50%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.16);
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgba(90,24,154,0.07);
+  max-width: 900px;
+  margin: 0 auto 30px;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+  text-align: left;
+  border-left: 6px solid #5a189a;
+}
+
+.card h2 { color: #5a189a; margin-bottom: 10px; }
+.card p { font-size: 1.05rem; color: #222; line-height: 1.7; }
+
+footer { margin-top: 10px; }
+.btn {
+  display: inline-block; padding: 10px 18px;
+  background: #5a189a; color: #fff; border-radius: 8px; text-decoration: none; font-weight:600;
+}
+.btn:hover { background:#3c096c; }
